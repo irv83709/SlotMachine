@@ -25,7 +25,8 @@ def play():
     if(slot1==slot2==slot3=="apple"):
         win = "\nYou win an apple!"
     if(slot1==slot2==slot3=="lemon"):
-        win = "\nTime to make some lemonade."
+        win = "\nTime to make some lemonade."\
+    else("\nFeed me Seymore")
     return slot1+":"+slot2+":"+slot3+" "+win
 for i in range(int(games)) :
     print(play())
